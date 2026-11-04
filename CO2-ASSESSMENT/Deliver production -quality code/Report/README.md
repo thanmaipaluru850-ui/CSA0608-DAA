@@ -1,16 +1,16 @@
 TASK (e) – DELIVER PRODUCTION-QUALITY CODE
 
-Introduction The SentinelOps SOC Alert-Triage Module is designed to manage security alerts efficiently. The main purpose of this task is to develop a corrected and optimised Python program with proper documentation and testing.
+1.Introduction The SentinelOps SOC Alert-Triage Module is designed to manage security alerts efficiently. The main purpose of this task is to develop a corrected and optimised Python program with proper documentation and testing.
 The program contains four major functions: alert sorting, blocklist searching, attack signature matching and closest login location detection.
 
 Implementation of the Module The module is implemented using Python programming language. Each function is designed to perform a specific operation.
-Alert Sorting: Sorts security alerts according to severity in descending order. Alerts with equal severity maintain their original arrival order.
+2.Alert Sorting: Sorts security alerts according to severity in descending order. Alerts with equal severity maintain their original arrival order.
 
-Blocklist Searching: Checks whether an IP address is present in the blocked IP list. A Python set is used to improve repeated searching performance.
+3.Blocklist Searching: Checks whether an IP address is present in the blocked IP list. A Python set is used to improve repeated searching performance.
 
-Signature Matching: Searches for all occurrences of an attack signature in a log file and returns their starting positions.
+4.Signature Matching: Searches for all occurrences of an attack signature in a log file and returns their starting positions.
 
-Closest Login Pair: Identifies the two login locations with the minimum distance using squared distance calculations.
+5.Closest Login Pair: Identifies the two login locations with the minimum distance using squared distance calculations.
 
 Code Documentation The Python program includes docstrings and meaningful comments to explain the purpose of each function.
 Function names clearly describe their operations. Comments explain important program steps. Docstrings describe the purpose and behaviour of functions. Variables use meaningful names for better understanding. This improves readability, maintainability and debugging.
